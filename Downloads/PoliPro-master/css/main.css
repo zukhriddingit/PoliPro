@@ -1,0 +1,402 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background: #000;
+}
+
+.menu li {
+    font-weight: 550;
+    font-size: 1.375rem;
+    line-height: 2.8125rem;
+}
+
+.menu li a {
+    color: #999999;
+}
+
+.navbar-nav .nav-item a {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-item a:hover {
+    text-decoration: underline #ed2d22;
+}
+
+.link {
+    color: #000;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: none;
+}
+
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: none!important;
+}
+
+.phonebtn a {
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.375rem;
+}
+
+.phonebtn a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    /* height: 100vh; */
+    background-color: orangered;
+    background-image: url(../img/triangle.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.orange {
+    width: 100%;
+}
+
+.orange-text p {
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.375rem;
+}
+
+.product-demos {
+    background-image: url(../img/prod2.png);
+    background-repeat: no-repeat;
+    background-position: 80%;
+}
+
+.prod-1 {
+    max-height: 100%;
+}
+
+.aftermain {
+    background-image: url(../img/Vector1.png), url(../img/Vector2.png);
+    background-repeat: repeat-y;
+    background-color: #000;
+    background-size: 30%, 30%;
+    background-position: bottom left, top right;
+}
+
+.pros {
+    margin-top: -2rem;
+    background-color: #fff;
+}
+
+.info-about-product {
+    margin-top: -2rem;
+    background-color: #fff;
+}
+
+.info-about-product h3 {
+    padding: 3.125rem 0;
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+
+.info-about-product p {
+    margin: 0 auto;
+    font-size: 1.4375rem;
+    text-align: center;
+    color: #999999;
+}
+
+.pros {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.pros .li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pros .li img {
+    padding: 1.25rem 1.25rem;
+}
+
+.pros:last-child button a {
+    border: 2px solid #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.features-intro {
+    text-align: center;
+    margin-top: 5.625rem;
+}
+
+.features-intro h3 {
+    color: #EF5521;
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.features-intro p {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding-top: 1.875rem;
+    padding-bottom: 61px;
+}
+
+.width-of-product {
+    width: 100%;
+}
+
+.product-width {
+    background: linear-gradient(90deg, #FA6E3F 0%, #F44D31 56.08%, #ED2B22 100%);
+    padding-top: 3rem;
+    margin-top: -1rem;
+    padding-bottom: 4.125rem;
+}
+
+.product-width img {
+    width: 100%;
+}
+
+.product-width p {
+    font-size: 1.5rem;
+    letter-spacing: 0.03125rem;
+    color: #FFFFFF;
+}
+
+.abilities {
+    padding-top: 4.125rem;
+}
+
+.abilities-1 h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #EF5521;
+    font-size: 2.25rem;
+}
+
+.abilities-1 p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.abilities-1 {
+    background-image: url(../img/product-details.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 12rem;
+    padding-bottom: 64%;
+}
+
+.abilities-2 {
+    background-color: #fff;
+    text-align: center;
+}
+
+.abilities-2-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+.abilities-2-gray-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #999999;
+}
+
+.abilities-2 .row div:last-child button a {
+    border: 2px solid #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.abilities-2 .row div {
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.about-company h2 {
+    text-align: center;
+    color: #EF5521;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 6.25rem;
+}
+
+.about-company p {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    line-height: 1.5625rem;
+}
+
+.stats {
+    width: 100%;
+}
+
+.stats img {
+    height: 7.5rem;
+}
+
+.stats div img :nth-child(2) {
+    height: 7.1875rem;
+}
+
+.contact p, .address p {
+    margin: 0;
+    padding: 0;
+}
+
+footer .row div:last-child button a {
+    color: #000;
+    border: 2px solid #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+}
+
+footer .row div:nth-child(2) {
+    font-weight: 550;
+    font-size: 1.1875rem;
+}
+
+.media-links i {
+    max-width: 100%;
+    font-size: 3.125rem;
+    color: #EF5521;
+}
+
+footer .row div:nth-child(3) {
+    font-weight: 550;
+    font-size: 1.1875rem;
+}
+
+footer a {
+    color: #000;
+}
+
+.modal-header h3 {
+    font-weight: bold;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+.form .input {
+    width: 100%;
+}
+
+.label {
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.bx-x-circle {
+    font-size: 30px;
+}
+
+.book-a-call {
+    background: #EF5521;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.book-a-call {
+    display: block;
+    border: none;
+    margin: 0 auto;
+}
+
+.book-a-call a{
+    padding: 60px;
+    color: #fff;
+}
+
+.agreement {
+    font-size: 1rem;
+    line-height: 105.5%;
+}
+
+.close {
+    background: none;
+    border: none;
+}
+
+.offcanvas {
+    background: transparent;
+}
+
+.bx-x-circle {
+    color: #fff;
+}
+
+#bx-circle{
+    color: #000;
+}
+
+.li button a:hover {
+    color: #000;
+}
+
+@media screen and (max-width:1200px) {
+    header .phonebtn {
+        display: none;
+    }
+    .pros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pros li {
+        display: flex;
+        flex-direction: column;
+    }
+    .abilities-1 {
+        margin-bottom: -1.8rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .abilities-1 {
+        margin-bottom: -3rem;
+    }
+    .menu .nav-item a {
+        color: #fff;
+    }
+    .product-demos {
+        background-position: 120%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .abilities-1 {
+        background-position: 0 15rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .orange-text p {
+        font-size: 2.875rem;
+    }
+}
